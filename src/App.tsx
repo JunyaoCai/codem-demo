@@ -12,7 +12,7 @@ const features = [
     title: "研发入口，就在对话发生的地方",
     description: "在单聊或群聊中发起、跟进、验收研发任务，CodeM 始终和团队共享同一份上下文。",
     image: asset("/codem/collab-product.png"),
-    tone: "#cfd7f8",
+    tone: "#1a2236",
   },
   {
     key: "project",
@@ -22,7 +22,7 @@ const features = [
     title: "需求进入流程，Agent 自动接棒",
     description: "需求、缺陷与节点成为 CodeM 的执行载体，进度、产出和风险持续回写。",
     image: asset("/codem/project-product.png"),
-    tone: "#ddd2f1",
+    tone: "#241d36",
   },
   {
     key: "sandbox",
@@ -32,7 +32,7 @@ const features = [
     title: "从定位到验证，都在隔离环境完成",
     description: "复现、计划、编码、测试在独立沙箱中连续推进，关键动作仍由工程师掌控。",
     image: asset("/codem/automation-fix.png"),
-    tone: "#cbdde9",
+    tone: "#16242c",
   },
   {
     key: "assets",
@@ -42,7 +42,7 @@ const features = [
     title: "把一次成功，变成团队的默认能力",
     description: "项目空间、知识库、技能和工具持续沉淀，让已经验证的方法被全组织复用。",
     image: asset("/codem/assets-product.png"),
-    tone: "#d7dfc8",
+    tone: "#23281c",
   },
 ];
 
@@ -173,7 +173,7 @@ export default function Home() {
   const story = stories[storyIndex];
 
   return (
-    <main className={`codem-site theme-light`} id="top">
+    <main className={`codem-site theme-dark`} id="top">
       <header className="site-header">
         <div className="logo-distortion"><Logo /></div>
         <div className="broadcast-id"><i />CODEM LIVE LAB <span>2026.07.15 / 20:00</span></div>
