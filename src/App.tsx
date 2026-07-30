@@ -136,12 +136,9 @@ export default function Home() {
   };
 
   const pauseDemo = () => {
-    // BUG-05: 暂停错误地执行了完整重置,进度与日志全部清零
     setDemoRunning(false);
-    setDemoPaused(false);
-    setProgress(0);
-    setDemoComplete(false);
-  };
+    setDemoPaused(true);
+    };
 
   const selectWorkflow = (index: number) => {
     // BUG-08: 保存状态时错误地减 1
